@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+html{
+  background-color: #fafafa;
+  color: #444;
+}
+
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+
+.main-text{
+  text-align: center;
+  margin: 20px;
+}
+
+.fadein{
+    display: inline-block;
+    opacity: 0;
+    font-size: 2vw;
+    /*アニメーション*/
+    animation-duration: 4s;
+    animation-direction:normal;  /*往復処理をするかどうか*/
+    animation-fill-mode: forwards; /*アニメーション後のスタイルをどうするか*/
+}
+
+.fadein1{
+   /* アニメーション設定 */
+  animation-name:fade-in1;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in1 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein2{
+   /* アニメーション設定 */
+  animation-name:fade-in2;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in2 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein3{
+   /* アニメーション設定 */
+  animation-name:fade-in3;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in3 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein4{
+   /* アニメーション設定 */
+  animation-name:fade-in4;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in4 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein5{
+   /* アニメーション設定 */
+  animation-name:fade-in5;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in5 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein6{
+   /* アニメーション設定 */
+  animation-name:fade-in6;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in6 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein7{
+   /* アニメーション設定 */
+  animation-name:fade-in7;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in7 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein8{
+   /* アニメーション設定 */
+  animation-name:fade-in8;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in8 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein9{
+   /* アニメーション設定 */
+  animation-name:fade-in9;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in9 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein10{
+   /* アニメーション設定 */
+  animation-name:fade-in10;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in10 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.fadein11{
+   /* アニメーション設定 */
+  animation-name:fade-in11;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+}
+/* アニメーション */
+@keyframes fade-in11 {
+  0% {opacity: 0; transform: translate3d(50px,100px,0);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+.eng{
+  opacity: 0;
+  font-size: 2vw;
+   /* アニメーション設定 */
+  animation-name:fade-in-eng;
+  animation-duration: 4s;
+  animation-timing-function: ease-out; /*アニメーションさせるイージング*/
+  animation-delay:2s; /*アニメーション開始させる時間*/
+  animation-iteration-count:1; /*繰り返し回数*/
+  animation-direction:normal; /*往復処理をするかどうか*/
+  animation-fill-mode: none; /*アニメーション後のスタイルをどうするか*/
+}
+/* アニメーション */
+@keyframes fade-in-eng {
+  0% {opacity: 0; transform: translate3d(0,100px,50px);}
+  50% {opacity: 1; transform: translate3d(0,0,0);}
+  100% {opacity: 0; transform: translate3d(0,-100px,0);}
+}
+
+
